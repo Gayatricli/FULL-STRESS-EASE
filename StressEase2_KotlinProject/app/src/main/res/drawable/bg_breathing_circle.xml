@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Outer Breathing Circle Container -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <gradient
+        android:angle="135"
+        android:endColor="#40F17A2B"
+        android:startColor="#60FFE3B0"
+        android:type="linear" />
+
+    <stroke
+        android:width="2dp"
+        android:color="@color/freud_surface_border" />
+</shape>

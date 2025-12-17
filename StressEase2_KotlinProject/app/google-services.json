@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "606547887785",
+    "project_id": "stress-ease",
+    "storage_bucket": "stress-ease.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606547887785:android:55ef37fd267db03f650bb8",
+        "android_client_info": {
+          "package_name": "com.example.stressease"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-EYvrSfZI3TJl3jfZuvgSIJuRa9dGnLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Recommendation Item Component -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_recommendation_item"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- Icon Container -->
+    <FrameLayout
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_recommendation_icon"
+        android:elevation="2dp">
+
+        <ImageView
+            android:id="@+id/ivRecommendationIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_message_circle"
+            app:tint="@color/freud_primary" />
+    </FrameLayout>
+
+    <!-- Text Content -->
+    <TextView
+        android:id="@+id/tvRecommendationText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Use the chatbot for emotional support and guidance"
+        android:textColor="@color/freud_text_dark"
+        android:textSize="15sp" />
+
+    <!-- Arrow Icon -->
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_chevron_right"
+        app:tint="@color/freud_text_hint" />
+</LinearLayout>

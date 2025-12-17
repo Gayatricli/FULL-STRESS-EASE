@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="chatTitle" type="id"/>
+    <item name="rvChat" type="id"/>
+    <item name="messageInputLayout" type="id"/>
+    <item name="etMessage" type="id"/>
+    <item name="btnSend" type="id"/>
+    <item name="smileyBackground" type="id"/>
+    <item name="tvProgress" type="id"/>
+    <item name="moodInput" type="id"/>
+    <item name="analyzeBtn" type="id"/>
+    <item name="resultView" type="id"/>
+    <item name="tvConditionReport" type="id"/>
+    <item name="moodPieChart" type="id"/>
+    <item name="emotionBarChart" type="id"/>
+    <item name="moodTrendChart" type="id"/>
+    <item name="recyclerViewHistory" type="id"/>
+    <item name="loginButton" type="id"/>
+    <item name="signUpText" type="id"/>
+    <item name="lineChartCard" type="id"/>
+    <item name="pieChartCard" type="id"/>
+    <item name="barChartCard" type="id"/>
+    <item name="include_suggestion_card" type="id"/>
+
+</resources>

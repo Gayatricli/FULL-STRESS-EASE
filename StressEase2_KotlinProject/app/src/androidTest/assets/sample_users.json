@@ -1,0 +1,974 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "email": "user1@example.com",
+      "password": "pass001",
+      "quizzes": [
+        {
+          "score": 8,
+          "timestamp": "2025-09-02",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 8,
+          "timestamp": "2025-09-03",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 19,
+          "timestamp": "2025-09-04",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_002",
+      "email": "user2@example.com",
+      "password": "pass002",
+      "quizzes": [
+        {
+          "score": 20,
+          "timestamp": "2025-09-03",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 18,
+          "timestamp": "2025-09-04",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_003",
+      "email": "user3@example.com",
+      "password": "pass003",
+      "quizzes": [
+        {
+          "score": 22,
+          "timestamp": "2025-09-04",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 24,
+          "timestamp": "2025-09-05",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 9,
+          "timestamp": "2025-09-06",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        }
+      ]
+    },
+    {
+      "id": "user_004",
+      "email": "user4@example.com",
+      "password": "pass004",
+      "quizzes": [
+        {
+          "score": 8,
+          "timestamp": "2025-09-05",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 12,
+          "timestamp": "2025-09-06",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_005",
+      "email": "user5@example.com",
+      "password": "pass005",
+      "quizzes": [
+        {
+          "score": 17,
+          "timestamp": "2025-09-06",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 20,
+          "timestamp": "2025-09-07",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 17,
+          "timestamp": "2025-09-08",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_006",
+      "email": "user6@example.com",
+      "password": "pass006",
+      "quizzes": [
+        {
+          "score": 29,
+          "timestamp": "2025-09-07",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 23,
+          "timestamp": "2025-09-08",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_007",
+      "email": "user7@example.com",
+      "password": "pass007",
+      "quizzes": [
+        {
+          "score": 6,
+          "timestamp": "2025-09-08",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 20,
+          "timestamp": "2025-09-09",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 28,
+          "timestamp": "2025-09-10",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_008",
+      "email": "user8@example.com",
+      "password": "pass008",
+      "quizzes": [
+        {
+          "score": 16,
+          "timestamp": "2025-09-09",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 10,
+          "timestamp": "2025-09-10",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 21,
+          "timestamp": "2025-09-11",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_009",
+      "email": "user9@example.com",
+      "password": "pass009",
+      "quizzes": [
+        {
+          "score": 15,
+          "timestamp": "2025-09-10",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 27,
+          "timestamp": "2025-09-11",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 7,
+          "timestamp": "2025-09-12",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        }
+      ]
+    },
+    {
+      "id": "user_010",
+      "email": "user10@example.com",
+      "password": "pass010",
+      "quizzes": [
+        {
+          "score": 24,
+          "timestamp": "2025-09-11",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 10,
+          "timestamp": "2025-09-12",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 7,
+          "timestamp": "2025-09-13",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        }
+      ]
+    },
+    {
+      "id": "user_011",
+      "email": "user11@example.com",
+      "password": "pass011",
+      "quizzes": [
+        {
+          "score": 24,
+          "timestamp": "2025-09-12",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 10,
+          "timestamp": "2025-09-13",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_012",
+      "email": "user12@example.com",
+      "password": "pass012",
+      "quizzes": [
+        {
+          "score": 16,
+          "timestamp": "2025-09-13",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 26,
+          "timestamp": "2025-09-14",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 14,
+          "timestamp": "2025-09-15",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_013",
+      "email": "user13@example.com",
+      "password": "pass013",
+      "quizzes": [
+        {
+          "score": 27,
+          "timestamp": "2025-09-14",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 18,
+          "timestamp": "2025-09-15",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_014",
+      "email": "user14@example.com",
+      "password": "pass014",
+      "quizzes": [
+        {
+          "score": 10,
+          "timestamp": "2025-09-15",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 10,
+          "timestamp": "2025-09-16",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 7,
+          "timestamp": "2025-09-17",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        }
+      ]
+    },
+    {
+      "id": "user_015",
+      "email": "user15@example.com",
+      "password": "pass015",
+      "quizzes": [
+        {
+          "score": 25,
+          "timestamp": "2025-09-16",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 21,
+          "timestamp": "2025-09-17",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_016",
+      "email": "user16@example.com",
+      "password": "pass016",
+      "quizzes": [
+        {
+          "score": 9,
+          "timestamp": "2025-09-17",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 10,
+          "timestamp": "2025-09-18",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_017",
+      "email": "user17@example.com",
+      "password": "pass017",
+      "quizzes": [
+        {
+          "score": 5,
+          "timestamp": "2025-09-18",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 27,
+          "timestamp": "2025-09-19",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_018",
+      "email": "user18@example.com",
+      "password": "pass018",
+      "quizzes": [
+        {
+          "score": 9,
+          "timestamp": "2025-09-19",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 30,
+          "timestamp": "2025-09-20",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 14,
+          "timestamp": "2025-09-21",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_019",
+      "email": "user19@example.com",
+      "password": "pass019",
+      "quizzes": [
+        {
+          "score": 21,
+          "timestamp": "2025-09-20",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 18,
+          "timestamp": "2025-09-21",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 18,
+          "timestamp": "2025-09-22",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_020",
+      "email": "user20@example.com",
+      "password": "pass020",
+      "quizzes": [
+        {
+          "score": 17,
+          "timestamp": "2025-09-21",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 25,
+          "timestamp": "2025-09-22",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 21,
+          "timestamp": "2025-09-23",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_021",
+      "email": "user21@example.com",
+      "password": "pass021",
+      "quizzes": [
+        {
+          "score": 26,
+          "timestamp": "2025-09-22",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 18,
+          "timestamp": "2025-09-23",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_022",
+      "email": "user22@example.com",
+      "password": "pass022",
+      "quizzes": [
+        {
+          "score": 27,
+          "timestamp": "2025-09-23",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 8,
+          "timestamp": "2025-09-24",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 7,
+          "timestamp": "2025-09-25",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        }
+      ]
+    },
+    {
+      "id": "user_023",
+      "email": "user23@example.com",
+      "password": "pass023",
+      "quizzes": [
+        {
+          "score": 24,
+          "timestamp": "2025-09-24",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 29,
+          "timestamp": "2025-09-25",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_024",
+      "email": "user24@example.com",
+      "password": "pass024",
+      "quizzes": [
+        {
+          "score": 25,
+          "timestamp": "2025-09-25",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 11,
+          "timestamp": "2025-09-26",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_025",
+      "email": "user25@example.com",
+      "password": "pass025",
+      "quizzes": [
+        {
+          "score": 20,
+          "timestamp": "2025-09-26",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 7,
+          "timestamp": "2025-09-27",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 11,
+          "timestamp": "2025-09-28",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_026",
+      "email": "user26@example.com",
+      "password": "pass026",
+      "quizzes": [
+        {
+          "score": 12,
+          "timestamp": "2025-09-27",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 7,
+          "timestamp": "2025-09-28",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        }
+      ]
+    },
+    {
+      "id": "user_027",
+      "email": "user27@example.com",
+      "password": "pass027",
+      "quizzes": [
+        {
+          "score": 25,
+          "timestamp": "2025-09-28",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 30,
+          "timestamp": "2025-09-29",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_028",
+      "email": "user28@example.com",
+      "password": "pass028",
+      "quizzes": [
+        {
+          "score": 28,
+          "timestamp": "2025-09-29",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 8,
+          "timestamp": "2025-09-30",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        }
+      ]
+    },
+    {
+      "id": "user_029",
+      "email": "user29@example.com",
+      "password": "pass029",
+      "quizzes": [
+        {
+          "score": 17,
+          "timestamp": "2025-09-30",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 12,
+          "timestamp": "2025-10-01",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_030",
+      "email": "user30@example.com",
+      "password": "pass030",
+      "quizzes": [
+        {
+          "score": 11,
+          "timestamp": "2025-10-01",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 14,
+          "timestamp": "2025-10-02",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 11,
+          "timestamp": "2025-10-03",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_031",
+      "email": "user31@example.com",
+      "password": "pass031",
+      "quizzes": [
+        {
+          "score": 16,
+          "timestamp": "2025-10-02",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 22,
+          "timestamp": "2025-10-03",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_032",
+      "email": "user32@example.com",
+      "password": "pass032",
+      "quizzes": [
+        {
+          "score": 23,
+          "timestamp": "2025-10-03",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 14,
+          "timestamp": "2025-10-04",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 13,
+          "timestamp": "2025-10-05",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_033",
+      "email": "user33@example.com",
+      "password": "pass033",
+      "quizzes": [
+        {
+          "score": 6,
+          "timestamp": "2025-10-04",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 21,
+          "timestamp": "2025-10-05",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_034",
+      "email": "user34@example.com",
+      "password": "pass034",
+      "quizzes": [
+        {
+          "score": 29,
+          "timestamp": "2025-10-05",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 5,
+          "timestamp": "2025-10-06",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 7,
+          "timestamp": "2025-10-07",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        }
+      ]
+    },
+    {
+      "id": "user_035",
+      "email": "user35@example.com",
+      "password": "pass035",
+      "quizzes": [
+        {
+          "score": 21,
+          "timestamp": "2025-10-06",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 27,
+          "timestamp": "2025-10-07",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 25,
+          "timestamp": "2025-10-08",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_036",
+      "email": "user36@example.com",
+      "password": "pass036",
+      "quizzes": [
+        {
+          "score": 15,
+          "timestamp": "2025-10-07",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 21,
+          "timestamp": "2025-10-08",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_037",
+      "email": "user37@example.com",
+      "password": "pass037",
+      "quizzes": [
+        {
+          "score": 7,
+          "timestamp": "2025-10-08",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 17,
+          "timestamp": "2025-10-09",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 19,
+          "timestamp": "2025-10-10",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_038",
+      "email": "user38@example.com",
+      "password": "pass038",
+      "quizzes": [
+        {
+          "score": 27,
+          "timestamp": "2025-10-09",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 16,
+          "timestamp": "2025-10-10",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_039",
+      "email": "user39@example.com",
+      "password": "pass039",
+      "quizzes": [
+        {
+          "score": 13,
+          "timestamp": "2025-10-10",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 17,
+          "timestamp": "2025-10-11",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_040",
+      "email": "user40@example.com",
+      "password": "pass040",
+      "quizzes": [
+        {
+          "score": 7,
+          "timestamp": "2025-10-11",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 30,
+          "timestamp": "2025-10-12",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 20,
+          "timestamp": "2025-10-13",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_041",
+      "email": "user41@example.com",
+      "password": "pass041",
+      "quizzes": [
+        {
+          "score": 27,
+          "timestamp": "2025-10-12",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 22,
+          "timestamp": "2025-10-13",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_042",
+      "email": "user42@example.com",
+      "password": "pass042",
+      "quizzes": [
+        {
+          "score": 15,
+          "timestamp": "2025-10-13",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 8,
+          "timestamp": "2025-10-14",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        }
+      ]
+    },
+    {
+      "id": "user_043",
+      "email": "user43@example.com",
+      "password": "pass043",
+      "quizzes": [
+        {
+          "score": 8,
+          "timestamp": "2025-10-14",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        },
+        {
+          "score": 28,
+          "timestamp": "2025-10-15",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 26,
+          "timestamp": "2025-10-16",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_044",
+      "email": "user44@example.com",
+      "password": "pass044",
+      "quizzes": [
+        {
+          "score": 30,
+          "timestamp": "2025-10-15",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 16,
+          "timestamp": "2025-10-16",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_045",
+      "email": "user45@example.com",
+      "password": "pass045",
+      "quizzes": [
+        {
+          "score": 17,
+          "timestamp": "2025-10-16",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 26,
+          "timestamp": "2025-10-17",
+          "suggestion": "High stress. Seek professional support."
+        }
+      ]
+    },
+    {
+      "id": "user_046",
+      "email": "user46@example.com",
+      "password": "pass046",
+      "quizzes": [
+        {
+          "score": 15,
+          "timestamp": "2025-10-17",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 14,
+          "timestamp": "2025-10-18",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 19,
+          "timestamp": "2025-10-19",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_047",
+      "email": "user47@example.com",
+      "password": "pass047",
+      "quizzes": [
+        {
+          "score": 14,
+          "timestamp": "2025-10-18",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 11,
+          "timestamp": "2025-10-19",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 19,
+          "timestamp": "2025-10-20",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_048",
+      "email": "user48@example.com",
+      "password": "pass048",
+      "quizzes": [
+        {
+          "score": 25,
+          "timestamp": "2025-10-19",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 6,
+          "timestamp": "2025-10-20",
+          "suggestion": "Low stress. Maintain healthy routines and relaxation."
+        }
+      ]
+    },
+    {
+      "id": "user_049",
+      "email": "user49@example.com",
+      "password": "pass049",
+      "quizzes": [
+        {
+          "score": 18,
+          "timestamp": "2025-10-20",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 28,
+          "timestamp": "2025-10-21",
+          "suggestion": "High stress. Seek professional support."
+        },
+        {
+          "score": 13,
+          "timestamp": "2025-10-22",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    },
+    {
+      "id": "user_050",
+      "email": "user50@example.com",
+      "password": "pass050",
+      "quizzes": [
+        {
+          "score": 13,
+          "timestamp": "2025-10-21",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        },
+        {
+          "score": 19,
+          "timestamp": "2025-10-22",
+          "suggestion": "Moderate stress. Practice mindfulness and journaling."
+        }
+      ]
+    }
+  ]
+}

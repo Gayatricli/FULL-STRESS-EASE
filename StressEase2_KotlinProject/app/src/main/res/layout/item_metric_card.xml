@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Metric Card for Numerical Values with Progress Bar -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="12dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="28dp"
+    app:cardElevation="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_metric_card_primary"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Label -->
+        <TextView
+            android:id="@+id/tvMetricLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Average Mood Score"
+            android:textColor="@color/text_gray"
+            android:textSize="15sp" />
+
+        <!-- Value Container -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvMetricValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="3.2"
+                android:textColor="@color/freud_primary"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMetricMaxValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="/ 5"
+                android:textColor="@color/freud_text_hint"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <!-- Progress Bar -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginTop="16dp">
+
+            <!-- Background Track -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:alpha="0.7"
+                android:background="@drawable/bg_progress_track" />
+
+            <!-- Progress Fill -->
+            <View
+                android:id="@+id/progressFill"
+                android:layout_width="0dp"
+                android:layout_height="12dp"
+                android:background="@drawable/bg_progress_fill_primary"
+                android:elevation="2dp" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

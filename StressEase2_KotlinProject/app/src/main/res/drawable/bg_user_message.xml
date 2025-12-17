@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="#4CAF50"
+        android:endColor="#81C784"
+        android:angle="0"/>
+    <corners android:radius="28dp"/>
+    <padding
+        android:left="12dp"
+        android:top="8dp"
+        android:right="12dp"
+        android:bottom="8dp"/>
+    <!-- Bubble color (purple for user) -->
+    <solid android:color="@color/white" />
+
+    <!-- Rounded corners -->
+    <corners android:radius="28dp" />
+
+    <!-- Optional inner spacing -->
+    <padding
+        android:left="8dp"
+        android:top="4dp"
+        android:right="8dp"
+        android:bottom="4dp"/>
+</shape>

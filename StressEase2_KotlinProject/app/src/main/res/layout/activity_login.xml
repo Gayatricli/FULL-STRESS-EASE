@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_chat_gradient"
+    android:padding="24dp">
+
+    <!-- Rainbow Arc - Top spanning full width from left to right (More faded) -->
+    <ImageView
+        android:id="@+id/rainbow_arc_background"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rainbow_arc_horizontal"
+        android:alpha="0.25"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="-24dp"
+        android:layout_marginStart="-24dp"
+        android:layout_marginEnd="-24dp"
+        android:contentDescription="@string/rainbow_decoration" />
+
+    <!-- Scrollable Content Container -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingTop="60dp">
+
+            <!-- Smiley Emoji - Above heading -->
+            <TextView
+                android:id="@+id/smiley_emoji_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="😊"
+                android:textSize="120sp"
+                android:alpha="0.4"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:layout_marginBottom="24dp"
+                android:contentDescription="@string/smiley_decoration" />
+
+            <!-- Welcome Title - Large and Bold -->
+            <TextView
+                android:id="@+id/loginTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_to_stressease"
+                android:textColor="@android:color/black"
+                android:textSize="40sp"
+
+                android:fontFamily="@font/ruby_dance"
+                android:gravity="center"
+                android:shadowColor="#1A000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4"
+                android:layout_marginBottom="64dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:maxLines="2"
+                android:lineSpacingMultiplier="1.2" />
+
+            <!-- Email Label -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Email Input -->
+            <EditText
+                android:id="@+id/emailInputLayout"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:autofillHints="emailAddress"
+                android:hint="Enter your email"
+                android:textColor="@android:color/black"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textSize="25sp"
+                android:background="@drawable/input_background"
+                android:padding="16dp"
+                android:elevation="2dp"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Password Label -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Password Input Container -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp">
+
+                <EditText
+                    android:id="@+id/passwordInputLayout"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="74dp"
+                    android:autofillHints=""
+                    android:hint="Enter your password"
+                    android:textColor="@android:color/black"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    android:textSize="25sp"
+                    android:background="@drawable/input_background"
+                    android:padding="16dp"
+                    android:paddingEnd="56dp"
+                    android:elevation="2dp" />
+
+                <!-- Password Toggle Icon Placeholder -->
+                <ImageView
+                    android:id="@+id/passwordToggle"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="16dp"
+                    android:src="@android:drawable/ic_menu_view"
+                    android:contentDescription="@string/toggle_password_visibility"
+                    app:tint="#64748b" />
+            </RelativeLayout>
+
+            <!-- Login Button -->
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="136dp"
+                android:layout_height="58dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/bg_primary_button_gradient"
+                android:backgroundTint="@null"
+                android:stateListAnimator="@null"
+                android:text="@string/Login"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:theme="@style/NoTintButtonTheme"
+                android:elevation="8dp" />
+            <!-- Register Button -->
+            <Button
+                android:id="@+id/signUpText"
+                android:layout_width="137dp"
+                android:layout_height="57dp"
+                android:background="@drawable/bg_primary_button_gradient"
+                android:backgroundTint="@null"
+                android:stateListAnimator="@null"
+                android:text="@string/Register"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:theme="@style/NoTintButtonTheme"
+                android:elevation="8dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
