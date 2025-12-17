@@ -1,0 +1,23 @@
+# Flask and Web Framework
+Flask==2.3.3
+python-dotenv==1.0.0
+gunicorn==21.2.0
+
+# Firebase
+firebase-admin==6.2.0
+
+# LangChain Core (with LCEL support)
+langchain==1.1.0
+langchain-core==1.1.0
+langchain-community==0.4.1
+
+# LangChain Google Gemini Integration
+langchain-google-genai==3.2.0
+
+# Additional dependencies for LangChain
+pydantic==2.12.4
+pydantic-core==2.41.5
+numpy==2.3.5
+
+# Monitoring
+langsmith>=0.3.45
