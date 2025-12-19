@@ -1,5 +1,5 @@
 
-# Android_app
+# Android_app-Gayatri Damle-Amity University Online ,Jan 2023 Batch
 This is android frontend
 📱 StressEase – Android Frontend
 
